@@ -17,3 +17,8 @@ NVIM_DIR=$SCRIPT_DIR/nvim
 mkdir -p ~/.config/nvim
 ln -fs $NVIM_DIR/init.vim ~/.config/nvim/init.vim
 
+#tmux
+TMUX_DIR=$SCRIPT_DIR/tmux
+mkdir -p ~/.config/tmux
+ln -fs $TMUX_DIR/tmux.conf ~/.config/tmux/tmux.conf
+
